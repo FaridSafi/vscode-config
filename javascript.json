@@ -1,0 +1,59 @@
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": ["console.log($1);"],
+    "description": "Log output to console"
+  },
+  "Generate React Component": {
+    "prefix": "grc",
+    "body": [
+      "import React from \"react\";",
+      "",
+      "class ${1:Name} extends React.Component {",
+      "  render() {",
+      "    return null;",
+      "  }",
+      "}",
+      "",
+      "export default ${1:Name};"
+    ],
+    "description": "Generate React Component"
+  },
+  "Generate React Native Component": {
+    "prefix": "grnc",
+    "body": [
+      "import React from \"react\";",
+      "import { View, Text } from \"react-native\";",
+      "",
+      "class ${1:Name} extends React.Component {",
+      "  render() {",
+      "    return (",
+      "      <View>",
+      "        <Text>Hello ${1:Name}</Text>",
+      "      </View>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export default ${1:Name};"
+    ],
+    "description": "Generate React Component"
+  },
+  "Generate Express Server": {
+    "prefix": "ges",
+    "body": [
+      "const express = require(\"express\");",
+      "const app = express();",
+      "",
+      "app.get(\"/\", (req, res) => {",
+      "  res.json({ message: \"Hello World\" });",
+      "});",
+      "",
+      "const port = process.env.PORT || 3000;",
+      "app.listen(port, () => {",
+      "  console.log(`Server running on port ${port}`);",
+      "});"
+    ],
+    "description": "Generate Express Server"
+  }
+}

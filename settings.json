@@ -1,0 +1,38 @@
+{
+  "javascript.autoClosingTags": true,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 2,
+  "lineJumper.linesToJump": 4,
+  "editor.snippetSuggestions": "top",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.rulers": [100],
+  "editor.wordWrap": "wordWrapColumn", // A rajouter dans le cours
+  "editor.wordWrapColumn": 100,
+  "terminal.integrated.fontFamily": "Monaco",
+  "editor.fontSize": 15,
+  "editor.renderIndentGuides": false,
+  "editor.minimap.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 0,
+  "files.associations": {
+    "*.ejs": "ejs"
+  },
+  "emmet.includeLanguages": {
+    "ejs": "html"
+  },
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editor.enablePreview": false,
+  "editor.largeFileOptimizations": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": false
+  // "editor.fontFamily": "Fira Code",
+  // "editor.fontLigatures": true
+  // "javascript.validate.enable": false,
+  // "prettier.eslintIntegration": true,
+  // "sortImports.onSave": false,
+}

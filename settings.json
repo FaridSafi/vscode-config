@@ -16,4 +16,5 @@
   "explorer.openEditors.visible": 0,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
